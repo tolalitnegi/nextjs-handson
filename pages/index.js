@@ -1,7 +1,12 @@
+// import Link from 'next/link';
+import Layout from '../components/Layout';
+
 const Index = () => (
-  <div>
-    <h1>Welcome to nextjs, this is from pages/index.js</h1>
-  </div>
+  <Layout title="Welcome to nextjs, this is from pages/index.js">
+    {/* <Link href="/about">
+      <a >About</a>
+    </Link> */}
+  </Layout>
 );
 
 export default Index;
