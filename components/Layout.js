@@ -25,6 +25,8 @@ export default ({ children, title }) => (
       <Link href="/"><a>Home</a></Link>
       <Link href="/about"><a>About</a></Link>
       <Link href="/contactus"><a>Contact Us</a></Link>
+      <Link href="/blog"><a>Blog</a></Link>
+      <Link href="/post"><a>Post</a></Link>
     </header>
     <h1>{title}</h1>
     {children}
